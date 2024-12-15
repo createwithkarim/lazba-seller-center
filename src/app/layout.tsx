@@ -8,15 +8,11 @@ import {
 import { dashboardNavItems } from "@/config/dashboard";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const Inter = localFont({
-  src: "./fonts/InterVF.ttf",
-  weight: "100 200 300 400 500 600 700 800 900",
-  variable: "--font-inter",
-});
+const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lazba Seller Center",
@@ -30,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("antialiased", Inter.className)}>
+      <body className={cn("antialiased", font.className)}>
         <SidebarProvider>
           <RootLeftSidebar items={dashboardNavItems} logoHref="/" user={{}} />
 
