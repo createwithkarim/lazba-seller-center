@@ -13,7 +13,7 @@ import Link from "next/link";
 import "./globals.css";
 
 const Inter = localFont({
-  src: "../app/fonts/InterVF.ttf",
+  src: "./fonts/InterVF.ttf",
   weight: "100 200 300 400 500 600 700 800 900",
   variable: "--font-inter",
 });
