@@ -1,45 +1,33 @@
 export const dashboardNavItems = {
   navMain: [
     {
-      title: "Order",
+      title: "Stores",
       url: "#",
       icon: "package",
       isActive: true,
       items: [
         {
-          title: "My Orders",
+          title: "All Stores",
           url: "#",
         },
         {
-          title: "Shipping Settings",
+          title: "Add New Store",
           url: "#",
         },
       ],
     },
     {
-      title: "Product",
+      title: "Category",
       url: "#",
       icon: "product",
       isActive: false,
       items: [
         {
-          title: "My Products",
+          title: "Categories",
           url: "#",
         },
         {
-          title: "Add New Product",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Shop",
-      url: "#",
-      icon: "tag",
-      isActive: false,
-      items: [
-        {
-          title: "My Shop",
+          title: "Add New Category",
           url: "#",
         },
       ],
