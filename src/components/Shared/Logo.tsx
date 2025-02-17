@@ -13,7 +13,7 @@ const Logo = () => {
       </div>
 
       <div className="grid flex-1 text-left text-sm leading-tight">
-        <span className="truncate font-semibold">Lazba Seller Center</span>
+        <span className="truncate font-semibold">Lazba Admin Panel</span>
       </div>
     </Link>
   );
